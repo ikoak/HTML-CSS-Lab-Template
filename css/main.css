@@ -3,6 +3,10 @@ h2 {
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
+body {
+    color: darkgray;
+}
+
 p {
     font-family: monospace;
 }
