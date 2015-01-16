@@ -25,11 +25,20 @@ body {
     block:inline;
 }
 
-/*#header img {
-    float: left;
+#header img {
+    float: right;
     height: 9%;
     width: 18%;
-}*/
+}
+.fruitsandvegetables {
+    color: black;
+    text-align: center;
+}
+
+tr td img {
+    width: 10em;
+    heigh: 30em;
+}
 
 a:link {
     font-size: 14;
