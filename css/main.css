@@ -22,7 +22,6 @@ body {
     font-style: italic;
     color: #4DB84D;
     text-align: center;
-    block:inline;
 }
 
 #header img {
@@ -35,13 +34,19 @@ body {
     text-align: center;
 }
 
+
 tr td img {
     width: 10em;
-    heigh: 30em;
+}
+
+form {
+    width:500px;
+    margin:50px auto;
+    float: right;
 }
 
 a:link {
-    font-size: 14;
+    font-size: 14px;
     font-family: Times;
 }
 
@@ -58,9 +63,9 @@ a:visited {
 h1 {
     text-align: center;
     color: black;
-    font-size: 40;
-    block:inline;
+    font-size: 40px;
 }
+
 p {
     font-family: monospace;
     font-family: cursive;
