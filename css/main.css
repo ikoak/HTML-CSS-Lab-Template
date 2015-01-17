@@ -1,11 +1,11 @@
 h2 {
-    color: red;
+    color: #4DB84D;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
 body {
     color: darkgray;
-    background-color: skyblue;
+    background-color: lightgrey;
 }
 
 #header {
@@ -29,11 +29,33 @@ body {
     height: 9%;
     width: 18%;
 }
+
+p.original.price {
+    font-weight: bold;
+}
+
+#meats p.original.price {
+    text-decoration: line-through;
+}
+
+#meats p.sale {
+    font-weight: bold;
+    color: red;
+}
+
 .fruitsandvegetables {
     color: black;
     text-align: center;
 }
 
+.wholegrainsandmeat {
+    color: black;
+    text-align: center;
+    margin-top: -620px;
+    margin-right: 400px;
+    float: right;
+    position: static;
+}
 
 tr td img {
     width: 10em;
@@ -42,7 +64,8 @@ tr td img {
 form {
     width:500px;
     margin:50px auto;
-    float: right;
+    margin-top: -20px;
+    margin-right: -250px;
 }
 
 a:link {
